@@ -2,7 +2,7 @@ let title = document.createElement("h1");
 title.textContent = "Count: ";
 document.body.appendChild(title);
 
-let add = document.createElement("h2");
+let add = document.createElement("h1");
 add.textContent = "0";
 document.body.appendChild(add);
 
