@@ -24,7 +24,7 @@ let co = 0;
 but.addEventListener("click", function(){
     co++
     add.textContent = co;
-    if(co%10===0){
+    if(co%10===0 && co!==0){
     
         document.body.style.backgroundColor = "green";
     
@@ -39,7 +39,7 @@ but.addEventListener("click", function(){
 but2.addEventListener("click", function(){
     co--;
     add.textContent = co;
-    if(co%10===0){
+    if(co%10===0 && co!==0){
     
         document.body.style.backgroundColor = "green";
     
