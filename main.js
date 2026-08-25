@@ -18,13 +18,13 @@ let but3 = document.createElement("button");
 but3.textContent = "Reset"
 document.body.appendChild(but3);
 
-but.style.fontSize = "100px";
+but.style.fontSize = "30px";
 but.style.padding = "10px 25px";
 
-but2.style.fontSize = "100px";
+but2.style.fontSize = "30px";
 but2.style.padding = "10px 25px";
 
-but3.style.fontSize = "100px";
+but3.style.fontSize = "30px";
 but3.style.padding = "10px 25px";
 
 
